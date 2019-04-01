@@ -18,10 +18,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <div>
           <UserBoard/>
-          </div>
-
         </main>  
       </div>
     );
