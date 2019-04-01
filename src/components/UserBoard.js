@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 name=["alice","bob","mike"]
 
 
-export default class User extends Component {
+export default class UserBoard extends Component {
     render() {
         return <h3>User board:</h3>
         <div>{this.props.name[0]}</div>
