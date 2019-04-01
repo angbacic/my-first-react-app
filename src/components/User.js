@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 
 export default class User extends Component {
     render() {
+     return   <div>
         <p>Users:</p>
-      return <div><b></b>{ this.props.content }</b></div>
+     <b>{ this.props.content }</b>
+     </div>
     }
   }
   
