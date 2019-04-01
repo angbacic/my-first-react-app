@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
-name=["alice","bob","mike"]
-
-
 export default class UserBoard extends Component {
+    state= ["angela","kevin","muci"]
+
+    }
     render() {
-        return <h3>User board:</h3>
-        <div>{this.props.name[0]}</div>
-        <div>{this.props.name[1]}</div>
-        <div>{this.props.name[2]}</div>
+      return <div>
+          <h3> User Board</h3>
+         <div>User:{this.state[0]}</div>
+         <div>User:{this.state[1]}</div>
+         <div>User:{this.state[2]}</div>
+         </div>
     }
 }
