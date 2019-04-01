@@ -9,10 +9,11 @@ export default class LightSwitch extends Component {
       active: !this.state.active
     })
   }
-  
+
   render() {
     return (<div>
       <p>The light switch is <b>{ this.state.active ? 'on' : 'off' }</b></p>
+      <button onClick={this.toggle}>Toggle</button>
     </div>)
   }
 }
